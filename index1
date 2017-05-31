@@ -1,0 +1,11 @@
+golang
+package main
+
+import (
+	"github.com/lealife/leacrawler"
+)
+
+func main() {
+	// url and the target path
+	leacrawler.Fetch("http://wudangdaoshui.flzhan.com/index.html", "/Users/life/Desktop/lealife")
+}
